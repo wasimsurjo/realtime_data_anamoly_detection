@@ -1,3 +1,5 @@
+import numpy as np
+
 class DataStream:
     """
     Simulates a real-time data stream by adding trend, seasonality, noise, and anomalies.
