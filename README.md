@@ -58,6 +58,9 @@ Modify `config/config.json` to adjust the data stream and anomaly detection para
     "threshold_factor": 2.0,
     "batch_size": 50
 }
+
+```
+
 Each parameter's role is explained in the configuration section of the documentation.
 
 Built With:
