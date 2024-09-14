@@ -30,19 +30,21 @@ What you need to install the software:
 A step by step series of examples that tell you how to get a development env running:
 
 1. Clone the repository:
+```
 git clone https://github.com/wasimsurjo/realtime_data_anamoly_detection.git
-
+```
 
 2. Install the required packages:
+```
 pip install -r requirements.txt
+```
 
-
-### Running
+3. Running:
 
 To run the project, navigate to the project directory and execute:
-
+```
 python3 main.py
-
+```
 
 ## Configuration
 
