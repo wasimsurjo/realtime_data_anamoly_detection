@@ -30,3 +30,39 @@ What you need to install the software:
 A step by step series of examples that tell you how to get a development env running:
 
 1. Clone the repository:
+git clone https://github.com/yourusername/data-stream-anomaly-detection.git
+
+
+2. Install the required packages:
+pip install -r requirements.txt
+
+
+### Running
+
+To run the project, navigate to the project directory and execute:
+
+python3 main.py
+
+
+## Configuration
+
+Modify `config/config.json` to adjust the data stream and anomaly detection parameters:
+```json
+{
+    "data_stream_size": 2000,
+    "noise_level": 5.0,
+    "seasonality": 50,
+    "window_size": 100,
+    "ema_alpha": 0.3,
+    "lookback": 20,
+    "threshold_factor": 2.0,
+    "batch_size": 50
+}
+Each parameter's role is explained in the configuration section of the documentation.
+
+Built With:
+Python - The programming language used.
+Matplotlib - The library used for generating visualizations.
+
+Authors
+Wasim Mahmud Surjo - Initial work - wasimsurjo
