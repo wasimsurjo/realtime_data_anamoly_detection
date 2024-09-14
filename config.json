@@ -1,0 +1,10 @@
+{
+    "data_stream_size": 2000,
+    "noise_level": 5.0,
+    "seasonality": 50,
+    "window_size": 100,
+    "ema_alpha": 0.3,
+    "lookback": 20,
+    "threshold_factor": 2.0,
+    "batch_size": 50
+}
